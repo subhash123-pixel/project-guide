@@ -1,0 +1,6 @@
+{
+  "name": "WanderGuide - Full-Stack Tourist Exploration & Travel Platform",
+  "description": "A comprehensive full-stack tourist guide application with interactive maps, destination discovery, user review engine, dynamic itinerary planning, and REST API architecture for FSD examination.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

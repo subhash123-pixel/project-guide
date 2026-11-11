@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Leaflet map custom touches */
+.leaflet-container {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.custom-map-popup .leaflet-popup-content-wrapper {
+  padding: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(229, 231, 235, 1);
+}
+
+.custom-map-popup .leaflet-popup-content {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.custom-map-popup .leaflet-popup-tip {
+  background: white;
+}
